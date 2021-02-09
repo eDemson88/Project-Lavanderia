@@ -21,16 +21,7 @@ public class ProjectLavanderia {
      * @param args the command line arguments
      */
     public static void main(String[] args) throws SQLException, pelangganException {
-        PelangganDao dao = LavanderiaDatabase.getPelangganDao();
-        Pelanggan pelanggan = new Pelanggan();
-        pelanggan.setNama("Dean Ghifari");
-        pelanggan.setAlamat("Buah Batu");
-        pelanggan.setTelp("088801845870");
-        pelanggan.setJenis("Cuci Setrika");
-        pelanggan.setBerat(3.5);
-        pelanggan.setHarga(pelanggan.getHarga());
-        
-        dao.insertPelanggan(pelanggan);
+
     }
     
 }

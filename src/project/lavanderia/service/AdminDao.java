@@ -6,16 +6,17 @@
 package project.lavanderia.service;
 
 import java.util.List;
-import project.lavanderia.entity.Pelanggan;
+import project.lavanderia.entity.Admin;
 import project.lavanderia.error.pelangganException;
 
 /**
  *
- * @author Dean
+ * @author ryzen
  */
-public interface PelangganDao {
+public interface AdminDao {
     
-    public void insertPelanggan(Pelanggan pelanggan) throws pelangganException;
+    public void insertAdmin(Admin admin) throws pelangganException;
     
-    public List<Pelanggan> selectAllPelanggan() throws pelangganException;
+    public List<Admin> selectAllAdmin() throws pelangganException;
+    
 }
