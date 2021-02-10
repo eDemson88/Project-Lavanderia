@@ -36,4 +36,6 @@ public class AdminController {
                JOptionPane.showMessageDialog(view, new Object[]{"Terjadi error di database dengan pesan ", e.getMessage()});  
             }
      }
+     
+     
 }

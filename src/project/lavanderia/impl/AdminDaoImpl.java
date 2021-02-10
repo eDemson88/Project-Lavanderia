@@ -13,6 +13,7 @@ import java.util.List;
 import project.lavanderia.entity.Admin;
 import project.lavanderia.error.pelangganException;
 import project.lavanderia.service.AdminDao;
+import project.lavanderia.view.LogInFrame;
 
 /**
  *
@@ -23,7 +24,6 @@ public class AdminDaoImpl implements AdminDao{
     private final String insertAdmin = "INSERT INTO ADMIN"
             + " (USERNAME, PASSWORD) VALUES"
             + " (?,?)";
-
 
     public AdminDaoImpl(Connection connection) {
         this.connection = connection;
